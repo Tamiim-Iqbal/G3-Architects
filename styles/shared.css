@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.work-sans-font {
+body{
     font-family: "Work Sans", sans-serif;
-  }
+}
+
+/* Width */
+.max-width{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Primary background */
+.pri-bg{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* Primary Button */
+.btn-pri{
+  background-color: #FF900E;
+}
+
+/* Text Color */
+/* Dark 2 */
+.text-gray{
+  color: #424242;
+}
+/* Dark 3 */
+.text-light-gray{
+  color: #727272;
+}
+
