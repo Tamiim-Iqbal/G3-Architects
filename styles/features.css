@@ -34,3 +34,27 @@
     color: #727272;
     margin-bottom: 2rem;
 }
+
+/* Responsive Small Device */
+@media screen and (max-width: 576px){
+        .teams{
+            flex-direction: column;
+        }
+        .team-img-container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .features-container{
+            margin-left: 0px;
+            max-width: 330px;
+        }
+}
+/* Responsive Medium Device */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .teams{
+        flex-direction: column;
+    }
+    .features-container{
+        margin: 0 auto;
+        max-width: 700px;
+    }
+}
