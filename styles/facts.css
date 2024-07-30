@@ -43,3 +43,24 @@
     font-size: 1.2rem;
     color: #727272;
 }
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+    .facts-container{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .fact-texts{
+        margin-left: 110px;
+    }
+    .facts-box{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+        justify-items: center;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .facts-description{
+        max-width: 330px;
+    }
+}
