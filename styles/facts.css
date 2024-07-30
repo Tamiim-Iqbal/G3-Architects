@@ -48,7 +48,7 @@
 @media screen and (max-width: 576px) {
     .facts-container{
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
     .fact-texts{
         margin-left: 110px;
